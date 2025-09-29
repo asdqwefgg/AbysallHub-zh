@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/asdqwefgg/AbysallHub-zh/refs/heads/main/Abysall%20Hub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/asdqwefgg/AbysallHub-zh/main/Abysall%20Hub"))()
