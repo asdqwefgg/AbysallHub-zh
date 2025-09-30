@@ -380,7 +380,12 @@ local keys = {}
 for k in pairs(Translations) do
     table.insert(keys, k)
 end
-table.sort(keys, function(a, b) return #a > #b end)
+table.sort(
+    keys,
+    function(a, b)
+        return #a > #b
+    end
+)
 
 -- 替换函数（纯文本，不走正则）
 local function safeReplace(text, old, new)
@@ -411,12 +416,17 @@ end
 
 -- Hook UI 赋值
 local oldNewIndex
-oldNewIndex = hookmetamethod(game, "__newindex", function(self, key, value)
-    if key == "Text" and type(value) == "string" then
-        value = translateText(value)
+oldNewIndex =
+    hookmetamethod(
+    game,
+    "__newindex",
+    function(self, key, value)
+        if key == "Text" and type(value) == "string" then
+            value = translateText(value)
+        end
+        return oldNewIndex(self, key, value)
     end
-    return oldNewIndex(self, key, value)
-end)
+)
 
 -- 最后加载远程脚本
 loadstring(game:HttpGet("https://raw.githubusercontent.com/bocaj111004/AbysallHub/refs/heads/main/Loader.lua"))()
