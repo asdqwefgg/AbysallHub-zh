@@ -42,7 +42,7 @@ local Translations = {
     ["Settings"] = "设置",
 
     ["Walkspeed"] = "步行速度",
-    ["Enable"] = 启用",
+    ["Enable"] = "启用",
     ["Speed Boost"] = "速度调整",
     ["Ladder Speed"] = "爬梯速度",
     ["Jump Power"] = "跳跃高度",
