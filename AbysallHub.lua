@@ -357,8 +357,8 @@ local Translations = {
     ["Barrel of Starlight"] = "星光桶",
     ["Win Shield"] = "胜利护盾",
     ["Big Shield Potion"] = "大护盾药水",
-    ["Small Shield Potion"] = "小护盾药水",
-    ["Holy Hand Grenade"] = "圣手雷",
+    ["Mini Shield Potion"] = "小护盾药水",
+    ["Hold Hand Grenade"] = "圣手雷",
     ["Candy"] = "糖果",
 
     ["has spawned"] = "已生成",
@@ -373,7 +373,9 @@ local Translations = {
     ["Get on a ladder to fix it"] = "爬上梯子修复",
     ["Your movement is now fully automated"] = "您的行动现已完全自动化",
     ["Avoid walking on the grass"] = "避免在草地上行走",
-    ["Position Spoof doesn't work on A-120"] = "遁地术在 A-120 上不起作用"
+    ["Position Spoof doesn't work on A-120"] = "遁地术在 A-120 上不起作用",
+    ["Successfully deleted"] = "已成功删除",
+    ["Failed to delete"] = "删除失败"
 }
 
 -- 按长度排序，保证长词优先
