@@ -359,6 +359,7 @@ local Translations = {
     ["Big Shield Potion"] = "大护盾药水",
     ["Small Shield Potion"] = "小护盾药水",
     ["Holy Hand Grenade"] = "圣手雷",
+    ["Candy"] = "糖果",
 
     ["has spawned"] = "已生成",
     ["has spawned. Hide!"] = "已生成. 隐藏!",
