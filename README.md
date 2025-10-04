@@ -7,6 +7,6 @@
 >> 嗯。
     
 ~~~luau
-loadstring(game:HttpGet("https://tinyurl.com/AbysallHub-zh"))()
+loadstring(game:HttpGet("bit.ly/3IFOedF"))()
 ~~~
 
